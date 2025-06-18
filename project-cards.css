@@ -1,0 +1,47 @@
+/* Project 1 - Protool */
+.project-card:nth-child(1) .project-image {
+    background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card:nth-child(1) .project-image::before {
+    content: "P";
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 8rem;
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Project 2 - Zenhostify */
+.project-card:nth-child(2) .project-image {
+    background: linear-gradient(135deg, #fd79a8 0%, #e84393 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card:nth-child(2) .project-image::before {
+    content: "Z";
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 8rem;
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
